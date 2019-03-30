@@ -8,7 +8,7 @@
     <title>Pesantren Terpadu Darul Qur'an Mulia</title>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
 
     <!-- Font -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -19,31 +19,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
+
         <!-- Navigation Bar -->
-        <nav id="biru" class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark biru pt-3">
             <a href="#" class="navbar-brand">
-                <img src="img/logo-dq.png" alt="" style="height: 45px;">
+                <img class="logodq" src="img/logo-dq.png" alt="">
+                <!-- <div id="nama" class="text-center"><b>Pesantren Terpadu<br>Darul Qur'an Mulia</b></div> -->
             </a>
-            <!-- Tombol navbar Responsive -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- KOonten Navbar -->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav">
+                    
+                    <!-- Navbar Content -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profil</a>
+                        <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Profil</b></a>
                         <div class="dropdown-menu" aria-labelledby="profil">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
-
+                    
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Akademik</a>
+                        <a class="nav-link dropdown-toggle " href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Akademik</b></a>
                         <div class="dropdown-menu" aria-labelledby="akademik">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
@@ -52,23 +52,67 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="prog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program Unggulan</a>
-                        <div class="dropdown-menu" aria-labelledby="prog">
+                        <a class="nav-link dropdown-toggle " href="#" id="progung" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Program Unggulan</b></a>
+                        <div class="dropdown-menu" aria-labelledby="progung">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
-
-                    <a href="#" class="nav-item nav-link">Fasilitas</a>
-                    <a href="#" class="nav-item nav-link">Ziswaf</a>
-                    <a href="#" class="nav-item nav-link">Alumni</a>
-                </div>
+                    <a href="#" class="nav-item nav-link"><b>Fasilitas</b></a>
+                    <a href="#" class="nav-item nav-link"><b>Ziswaf</b></a>
+                    <a href="#" class="nav-item nav-link"><b>Alumni</b></a>
+                </ul>
+            </div>
+            <div class="search text-right">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
+                    <button class="btn btn-outline-biru my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
             </div>
         </nav>
 
+        <!-- Carousell -->
+        <div class="col-md-12 text-center slider spacer">
+            <div class="row text-center">
+                <div class="col-md-1"></div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                              <li data-target="#demo" data-slide-to="0" class="active"></li>
+                              <li data-target="#demo" data-slide-to="1"></li>
+                              <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
+                            
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/test.jpg" alt="Los Angeles" width="1100" height="500">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/test2.jpg" alt="Chicago" width="1100" height="500">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/test.jpg" alt="New York" width="1100" height="500">
+                              </div>
+                            </div>
+                            
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next kuning" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                          </div>
+            </div>
+        </div>
+
+       
+        
         <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-       <script src="js/bootstrap.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
