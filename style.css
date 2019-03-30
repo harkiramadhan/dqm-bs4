@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+#biru{
+    background-color: #003470;
+    color: white;
+}
+
+
+/* Responsive */
+@media (max-width: 767.98px) { 
+   
+}
