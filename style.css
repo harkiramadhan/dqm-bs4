@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6{
     background-color: #003570;
     color: white;
 }
+.textblue{
+    color: #003570;
+}
+.textkuning li a{
+    color: #FFC600
+}
 .kuning{
     color: #FFC600
 }
@@ -36,6 +42,11 @@ h1, h2, h3, h4, h5, h6{
     height: 45px;
     margin-left: 18px;
     margin-bottom: 5px;
+}
+.logodqfooter{
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 .btn-outline-biru {
     background-color: white;
@@ -54,21 +65,30 @@ h1, h2, h3, h4, h5, h6{
     color: white;
 }
 .carousel-item img{
-    height: 500px;
-    width: 1100px;
+    height: 600px;
+    width: 1200px;
 }
 .carousel-indicators .active{
-    background-color: #FFC600
+    background-color: #AF8800
 }
 .carousel-control-prev,
 .carousel-control-next{
     margin-left: 10%;
     margin-right: 10%;
 }
-.headerberita{
+.headerbiru{
     margin-top: 100px;
 }
-.headerberita h4{
+.sosmed{
+    margin-top: 100px;
+}
+.sosmed h2 a{
+    color: #003570
+}
+.sosmed h2 a:hover{
+    color: #FFC600
+}
+.headerbiru h4{
     text-align: center;
     border-bottom: 3px solid #003570;
     display: table-cell;
@@ -96,6 +116,7 @@ h1, h2, h3, h4, h5, h6{
 } 
 .photos {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 .photo-gallery {
     width: 100%;
@@ -107,7 +128,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* Responsive */
 @media (max-width: 767.98px) {
-    .headerberita{
+    .headerbiru{
         margin-top: 50px;
     }
     .spacer{
