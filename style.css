@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -6,6 +9,18 @@ p{
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: 700;
+}
+.nav .active{
+    border-width:3px;  
+    border-bottom: 3px solid #FFC600;
+    display: table-cell;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    text-align: center;
+    border-bottom: 3px solid #FFC600;
+    display: table-cell;
+    text-transform: uppercase;
 }
 .biru{
     background-color: #003570;
@@ -21,9 +36,6 @@ h1, h2, h3, h4, h5, h6{
     height: 45px;
     margin-left: 18px;
     margin-bottom: 5px;
-}
-.search {
-    /* margin-left: 35%; */
 }
 .btn-outline-biru {
     background-color: white;
@@ -41,8 +53,29 @@ h1, h2, h3, h4, h5, h6{
     background-color: #FFC600;
     color: white;
 }
+.carousel-item img{
+    width: 85%;
+}
 .carousel-indicators .active{
     background-color: #FFC600
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.headerberita{
+    margin-top: 100px;
+}
+.headerberita h3{
+    text-align: center;
+    border-bottom: 5px solid #003570;
+    display: table-cell;
+    text-transform: uppercase;
+}
+.judul{
+    color: #003570;
 }
 
 /* Responsive */
@@ -57,7 +90,11 @@ h1, h2, h3, h4, h5, h6{
     #nama{
         display: none;
     }
-}
+    .nav a:hover{
+        border-width:0px;  
+        border-color: #FFC600;
+        border-bottom-style:solid;
+    }
 @media (min-width: 992px){
     
 } 
