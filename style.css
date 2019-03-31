@@ -54,12 +54,12 @@ h1, h2, h3, h4, h5, h6{
     color: white;
 }
 .carousel-item img{
-    width: 85%;
+    height: 500px;
+    width: 1100px;
 }
 .carousel-indicators .active{
     background-color: #FFC600
 }
-
 .carousel-control-prev,
 .carousel-control-next{
     margin-left: 10%;
@@ -68,18 +68,55 @@ h1, h2, h3, h4, h5, h6{
 .headerberita{
     margin-top: 100px;
 }
-.headerberita h3{
+.headerberita h4{
     text-align: center;
-    border-bottom: 5px solid #003570;
+    border-bottom: 3px solid #003570;
+    display: table-cell;
+    text-transform: uppercase;
+}
+.headergal{
+    margin-top: 100px;
+}
+.headergal h4{
+    text-align: center;
+    border-bottom: 3px solid #FFC600;
     display: table-cell;
     text-transform: uppercase;
 }
 .judul{
     color: #003570;
 }
+.photos img {
+    height: 120px;
+    float: left;
+    display: block;
+    margin: 2px;
+    border: 0px;
+    margin-left: 2px;
+} 
+.photos {
+    width: 100%;
+} 
+.photo-gallery {
+    width: 100%;
+}
+
+.video{
+    height: 100%;
+}
 
 /* Responsive */
 @media (max-width: 767.98px) {
+    .headerberita{
+        margin-top: 50px;
+    }
+    .spacer{
+        margin-top: 110px;
+    }
+    .carousel-item img{
+        height: 150px;
+        width: 280px;
+    }
     .search{
         display: none;
     }
@@ -95,6 +132,12 @@ h1, h2, h3, h4, h5, h6{
         border-color: #FFC600;
         border-bottom-style:solid;
     }
-@media (min-width: 992px){
-    
-} 
+    .photos img {
+        height: 50px;
+        float: left;
+        display: block;
+        margin: 1px;
+        border: 0px;
+        margin-left: 1px;
+    }
+}

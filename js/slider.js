@@ -1,0 +1,24 @@
+$('.imageCarousel').owlCarousel({
+    items:6,
+    loop:true,
+    margin:5,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true 
+});
+$('.videosCarousel').owlCarousel({
+    items:1,
+    loop:true,
+    margin:1,
+    video:true,
+    autoplay:true,
+    center:true,
+    responsive:{
+        480:{
+            items:2
+        },
+        600:{
+            items:4
+        }
+    }
+});
