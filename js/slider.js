@@ -40,3 +40,18 @@ $('.videosCarousel').owlCarousel({
         }
     }
 });
+
+if(screen.width <= 780){
+    $('.show').show();
+}else{
+    $('.hide').show();
+    $(window).scroll(function() {
+        if ($(this).scrollTop()>0){
+            $('.hide').hide(300);
+            $('.show').show(300);
+        }else{
+            $('.hide').show(300);
+            $('.show').hide(300);
+        }
+    });
+}
