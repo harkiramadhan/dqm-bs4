@@ -1,3 +1,21 @@
+$('.paudCarousel').owlCarousel({
+    items:3,
+    loop:true,
+    margin:5,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true 
+});
+$('.beritaCarousel').owlCarousel({
+    items:1,
+    loop:true,
+    margin:5,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true 
+});
 $('.imageCarousel').owlCarousel({
     items:6,
     loop:true,

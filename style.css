@@ -158,6 +158,13 @@ h1, h2, h3, h4, h5, h6{
     border: 0px;
     margin-left: 2px;
 } 
+.potopaud img {
+    height: 70px;
+    float: left;
+    display: block;
+    margin: 2px;
+    border: 0px;
+} 
 .photos {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -165,13 +172,29 @@ h1, h2, h3, h4, h5, h6{
 .photo-gallery {
     width: 100%;
 }
-
 .video{
     height: 100%;
 }
 .konten{
     height: 700px;
     overflow-y: scroll;
+}
+.card-body ul li{
+    list-style-type: none;
+}
+.berita li{
+    list-style-type: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    font-weight: bold;
+    background-color: #003570;
+    border-color: #003570;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+    color: white;
+    background-color: #FFC600;
+    border-color: #FFC600;
 }
 
 /* Responsive */
@@ -209,4 +232,16 @@ h1, h2, h3, h4, h5, h6{
         border: 0px;
         margin-left: 1px;
     }
+    .potopaud img {
+        height: 50px;
+        float: left;
+        display: block;
+        margin: 2px;
+        border: 0px;
+    } 
+    .konten{
+        height: 300px;
+        overflow-y: scroll;
+    }
+    
 }
