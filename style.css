@@ -26,6 +26,14 @@ h1, h2, h3, h4, h5, h6{
     background-color: #003570;
     color: white;
 }
+.birubutton{
+    background-color: #003570;
+    color: white;
+}
+.birubutton:hover{
+    background-color: #FFC600;
+    color: white;
+}
 .textblue{
     color: #003570;
 }
@@ -79,8 +87,32 @@ h1, h2, h3, h4, h5, h6{
 .headerbiru{
     margin-top: 100px;
 }
+.headerberita{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.komentar h3{
+    color: #003570;
+}
+.like h4{
+    float: left;
+    display: block;
+    color:#003570;
+}
+.komentar h3:hover{
+    color: #FFC600;
+}
+.komentar h3 a{
+    color: #003570;
+}
+.komentar h3 a:hover{
+    color: #FFC600;
+}
 .sosmed{
     margin-top: 100px;
+}
+.sosmedberita{
+    margin-top: 20px;
 }
 .sosmed h2 a{
     color: #003570
@@ -88,8 +120,20 @@ h1, h2, h3, h4, h5, h6{
 .sosmed h2 a:hover{
     color: #FFC600
 }
+.sosmedberita h2 a{
+    color: #003570
+}
+.sosmedberita h2 a:hover{
+    color: #FFC600
+}
 .headerbiru h4{
     text-align: center;
+    border-bottom: 3px solid #003570;
+    display: table-cell;
+    text-transform: uppercase;
+}
+.headerberita h5{
+    text-align: left;
     border-bottom: 3px solid #003570;
     display: table-cell;
     text-transform: uppercase;
@@ -124,6 +168,10 @@ h1, h2, h3, h4, h5, h6{
 
 .video{
     height: 100%;
+}
+.konten{
+    height: 700px;
+    overflow-y: scroll;
 }
 
 /* Responsive */
