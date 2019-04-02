@@ -38,6 +38,18 @@ h1, h2, h3, h4, h5, h6{
     background-color: #FFC600;
     color: white;
 }
+.kuningbutton{
+    background-color: #FFC600;
+    color: white;
+}
+.kuningbutton span{
+    background-color: #003570;
+    color: white;
+}
+.kuningbutton:hover{
+    background-color: rgb(156, 122, 0);
+    color: white;
+}
 .textblue{
     color: #003570;
 }
