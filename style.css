@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #003570;
     color: white;
 }
+
 .birubutton{
     background-color: #003570;
     color: white;
@@ -89,12 +90,36 @@ h1, h2, h3, h4, h5, h6{
     width: 1200px;
 }
 .carousel-indicators .active{
-    background-color: #AF8800
+    background-color: #FFC600;
 }
 .carousel-control-prev,
 .carousel-control-next{
     margin-left: 10%;
     margin-right: 10%;
+}
+.carousel-control-next-icon {
+    background-image : url("img/next.svg");
+    color: #FFC600 !important;
+}
+.carousel-control-prev-icon {
+    -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
+    -moz-transform: rotate(180deg);        /* FF */
+    -o-transform: rotate(180deg);          /* Opera */
+    -ms-transform: rotate(180deg);         /* IE9 */
+    transform: rotate(180deg); 
+    background-image : url("img/next.svg");
+    color: #FFC600 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+.carousel-indicators li {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background-color: rgba(255, 200, 0, 0.384);
 }
 .headerbiru{
     margin-top: 100px;
