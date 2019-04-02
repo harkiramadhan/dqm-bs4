@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5, h6{
 .besar, .kecil{
     display: none;
 }
+.atas{
+    padding-top: 7px;
+}
 .nav .active{
     border-width:3px;  
     border-bottom: 3px solid #FFC600;
@@ -263,6 +266,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* Responsive */
 @media (max-width: 767.98px) {
+    .atas{
+        padding-top: 0px;
+    }
     .headerbiru{
         margin-top: 50px;
     }
