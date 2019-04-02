@@ -53,4 +53,5 @@ if(screen.width <= 780){
             $('.kecil').hide(300);
         }
     });
-}
+};
+
