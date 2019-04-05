@@ -30,9 +30,6 @@ h5{
 h6{
     font-size:0.73em;
 }
-.besar, .kecil{
-    display: none;
-}
 .atas{
     padding-top: 65px;
 }
@@ -91,17 +88,32 @@ h6{
     font-size: 8pt;
 }
 .logodq2{
-    height: 68px;
-    margin-left: 41px;
-    margin-bottom: -6px;
-    margin-right: 24px;
-    margin-top: 7px;
+    height: 42px;
+    margin-left: 21px;
+    margin-bottom: 1px;
+    margin-right: 15px;
+    margin-top: 0px;
 }
-.logodq{
-    height: 250px;
-    margin-left: 10px;
-    margin-bottom: -61px;
-    margin-top: -123px;
+.calendar-gray{
+    width: 30%;
+    float: left;
+    text-align: center;
+    color: #000;
+    background: #e0e0e0;
+    border-left: 8px solid #013880;
+    min-height: 100px;
+    max-height: 100px;
+    padding: 10px 0;
+}
+.calendar-content{
+    float: right;
+    padding: 25px;
+    width: 70%;
+    position: relative;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    background: #f5f5f5;
 }
 .logodqfooter{
     height: 226px;
@@ -314,9 +326,6 @@ h6{
         width: 280px;
     }
     .search{
-        display: none;
-    }
-    .logodq{
         display: none;
     }
     .logodq2{

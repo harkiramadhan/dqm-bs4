@@ -40,20 +40,6 @@ $('.videosCarousel').owlCarousel({
         }
     }
 });
-if(screen.width <= 780){
-    $('.kecil').show();
-}else{
-    $('.besar').show();
-    $(window).scroll(function() {
-        if ($(this).scrollTop()>0){
-            $('.besar').hide(300);
-            $('.kecil').show(300);
-        }else{
-            $('.besar').show(300);
-            $('.kecil').hide(300);
-        }
-    });
-};
 $(function() {
     function c() {
       p();
