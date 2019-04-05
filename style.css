@@ -3,18 +3,43 @@ html {
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 p{
+    font-size: 12px;
     font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: 700;
+}
+h1{
+    font-size:2em;
+}
+h2{
+    font-size:1.5em;
+}
+h3{
+    font-size:1.3em;
+}
+h4{
+    font-size:1em;
+}
+h5{
+    font-size:0.8em;
+}
+h6{
+    font-size:0.73em;
 }
 .besar, .kecil{
     display: none;
 }
 .atas{
     padding-top: 65px;
+}
+.video{
+    height: 80vh;
+    max-height: 90vh;
+    overflow: hidden;
 }
 .nav .active{
     border-width:3px;  
@@ -137,10 +162,11 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgba(255, 200, 0, 0.384);
 }
 .headerbiru{
-    margin-top: 100px;
+    font-size: 2em;
+    margin-top: 25px;
 }
 .headerberita{
-    margin-top: 20px;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 .komentar h3{
@@ -161,7 +187,8 @@ h1, h2, h3, h4, h5, h6{
     color: #FFC600;
 }
 .sosmed{
-    margin-top: 100px;
+    font-size: 2em;
+    margin-top: 25px;
 }
 .sosmedberita{
     margin-top: 20px;
@@ -185,15 +212,17 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
 }
 .headerberita h5{
+    font-size: 2em;
     text-align: left;
     border-bottom: 3px solid #003570;
     display: table-cell;
     text-transform: uppercase;
 }
 .headergal{
-    margin-top: 100px;
+    margin-top: 25px;
 }
 .headergal h4{
+    font-size: 2em;
     text-align: center;
     border-bottom: 3px solid #FFC600;
     display: table-cell;
@@ -266,6 +295,11 @@ h1, h2, h3, h4, h5, h6{
 
 /* Responsive */
 @media (max-width: 767.98px) {
+    .video{
+        max-height: 60vh;
+        overflow: hidden;
+        padding-top: 70px;
+    }
     .atas{
         padding-top: 0px;
     }
