@@ -80,10 +80,25 @@
         </nav>
 
         <section class="top">
-            <div class="video">
-                <video width="100%" height="100%" autoplay muted loop>
+            <div class="video carousel carousel" data-ride="carousel" id="demo" controls>
+                <video width="100%" height="100%" autoplay muted loop class="carousel-item active">
                     <source src="https://ugm.ac.id/video/video_header_4.mp4" type="video/mp4">
                 </video>
+                <video width="100%" height="100%" autoplay muted loop class="carousel-item" controls>
+                    <source src="video/frame.mp4" type="video/mp4">
+                </video>
+                <img src="img/test.jpg" alt="" class="carousel-item">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </section>
 

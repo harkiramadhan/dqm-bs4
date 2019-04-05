@@ -38,6 +38,15 @@ h6{
     max-height: 90vh;
     overflow: hidden;
 }
+.nav li a{
+    color: white !important;
+}
+.nav a{
+    color: white !important;
+}
+.dropdown-item{
+    color: #003570 !important;
+}
 .nav .active{
     border-width:3px;  
     border-bottom: 3px solid #FFC600;
@@ -146,8 +155,8 @@ h6{
 }
 .carousel-control-prev,
 .carousel-control-next{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .carousel-control-next-icon {
     background-image : url("img/next.svg");
@@ -164,8 +173,8 @@ h6{
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .carousel-indicators li {
     width: 0.5rem;
@@ -329,8 +338,13 @@ h6{
         display: none;
     }
     .logodq2{
-        height: 45px;
+        height: 35px;
         margin-left: 0;
+    }
+    .video{
+        max-height: 60vh;
+        overflow: hidden;
+        padding-top: 60px;
     }
     #nama{
         display: none;
