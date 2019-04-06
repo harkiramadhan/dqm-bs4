@@ -193,3 +193,8 @@ $(function() {
       $(this).removeClass("hover");
     }
   );
+  jQuery(document).ready(function ($) {
+    if ($(window).width() >= 992) {
+        $('#container-navbar').removeClass('container-fluid').addClass('container');
+    }
+});

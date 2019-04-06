@@ -89,6 +89,16 @@ h6{
 #nama{
     font-size: 8pt;
 }
+.search-icon{
+    background-image: url(/img/search.svg);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat;
+    background-size: 100% 100%;
+}
 .logodq2{
     height: 42px;
     margin-left: 21px;
@@ -324,6 +334,10 @@ h6{
 
 /* Responsive */
 @media (max-width: 767.98px) {
+    .modal-backdrop {
+        opacity: 0 !important;
+        background-color: #246A73;
+    }
     .video{
         max-height: 60vh;
         overflow: hidden;
@@ -401,7 +415,72 @@ h6{
     }
     
 }
+.navbar-search {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    padding: 1em;
+    border-radius: 0;
+    z-index: 2;
+}
 
+#navbar-search-modal {
+    width: 100%;
+}
+
+#navbar-search-modal .modal-dialog {
+    margin: 50px 0 0 0;
+    padding-bottom: 0;
+}
+
+#navbar-search-modal .modal-content {
+    border: none;
+    border-radius: 0;
+    height: 46px;
+}
+
+#navbar-search-modal .modal-body {
+    padding: 0;
+    border-bottom: 0;
+}
+
+#navbar-search-modal input,
+#navbar-search-modal .input-group-addon {
+    border-radius: 0;
+}
+
+#navbar-search-modal .btn-search {
+    height: 46px;
+    width: 50px;
+    padding: 0.5em;
+    border-radius: 0;
+}
+
+#navbar-search-modal .btn,
+#navbar-search-modal input {
+    border: none;
+    color: #246A73;
+}
+
+#navbar-search-modal input {
+    background-color: #F0F0F0;
+}
+
+#navbar-search-modal .btn {
+    background-color: #E1E1E1;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    margin-left: 40%;
+    margin-top: -6px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #E1E1E1;
+}
 /* CALENDAR */
 #calendar{
     margin-left: auto;
@@ -411,8 +490,6 @@ h6{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-  
-  
   }
   #calendar_weekdays div{
     display:inline-block;

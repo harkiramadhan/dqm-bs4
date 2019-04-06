@@ -32,53 +32,60 @@
 
         <!-- Navigation Bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark biru">
-            <a href="#" class="navbar-brand">
+            <div class="container">
+                <a href="#" class="navbar-brand">
                 <img class="logodq2" src="img/logo-dq1.png" alt="">
                 <!-- <div id="nama" class="text-center"><b>Pesantren Terpadu<br>Darul Qur'an Mulia</b></div> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav">
-                    <!-- Navbar Content -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
-                        <div class="dropdown-menu" aria-labelledby="profil">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
-                        <div class="dropdown-menu" aria-labelledby="akademik">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="progung" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROGRAM UNGGULAN</a>
-                        <div class="dropdown-menu" aria-labelledby="progung">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <a href="#" class="nav-item nav-link">FASILITAS</a>
-                    <a href="#" class="nav-item nav-link">ZISWAF</a>
-                    <a href="#" class="nav-item nav-link">ALUMNI</a>
-                </ul>
-            </div>
-            <div class="search text-right">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
-                    <button class="btn btn-outline-biru my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                </form>
+                </a>
+                <div class="text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#search" aria-controls="search" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="search-icon"><span class="mt-1 fa fa-search" aria-hidden="true"></span></span>
+                    </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <!-- Navbar Content -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
+                            <div class="dropdown-menu" aria-labelledby="profil">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
+                            <div class="dropdown-menu" aria-labelledby="akademik">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="progung" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROGRAM UNGGULAN</a>
+                            <div class="dropdown-menu" aria-labelledby="progung">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <a href="#" class="nav-item nav-link">FASILITAS</a>
+                        <a href="#" class="nav-item nav-link">ZISWAF</a>
+                        <a href="#" class="nav-item nav-link">ALUMNI</a>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="search">
+                   <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
             </div>
         </nav>
-
+        
         <section class="top">
             <div class="video carousel carousel" data-ride="carousel" id="demo" controls>
                 <video width="100%" height="100%" autoplay muted loop class="carousel-item active">
