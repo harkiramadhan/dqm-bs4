@@ -253,6 +253,12 @@ h6{
     display: table-cell;
     text-transform: uppercase;
 }
+.headerberita h5{
+    text-align: left;
+    border-bottom: 3px solid #003570;
+    display: table-cell;
+    text-transform: uppercase;
+}
 .headergal{
     margin-top: 25px;
 }
@@ -481,7 +487,7 @@ h6{
 #calendar{
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
     position:absolute;
     top:50%;
     left:50%;

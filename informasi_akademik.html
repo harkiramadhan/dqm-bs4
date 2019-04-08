@@ -32,58 +32,74 @@
 
         <!-- Navigation Bar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark biru">
-            <a href="#" class="navbar-brand">
-                <img class="logodq besar" src="img/logodq2.png" alt="">
-                <img class="logodq2 kecil" src="img/logo-dq1.png" alt="">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                <img class="justify-content-start logodq2" src="img/logo-dq1.png" alt="">
                 <!-- <div id="nama" class="text-center"><b>Pesantren Terpadu<br>Darul Qur'an Mulia</b></div> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav">
-                    <!-- Navbar Content -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
-                        <div class="dropdown-menu" aria-labelledby="profil">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
-                        <div class="dropdown-menu" aria-labelledby="akademik">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="progung" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROGRAM UNGGULAN</a>
-                        <div class="dropdown-menu" aria-labelledby="progung">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <a href="#" class="nav-item nav-link">FASILITAS</a>
-                    <a href="#" class="nav-item nav-link">ZISWAF</a>
-                    <a href="#" class="nav-item nav-link">ALUMNI</a>
-                </ul>
-            </div>
-            <div class="search text-right">
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
-                    <button class="btn btn-outline-biru my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                </form>
+                </a>
+                <div class="text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#search" aria-controls="search" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="search-icon"><span class="mt-1 fa fa-search" aria-hidden="true"></span></span>
+                    </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <!-- Navbar Content -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="profil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL</a>
+                            <div class="dropdown-menu" aria-labelledby="profil">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="akademik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
+                            <div class="dropdown-menu" aria-labelledby="akademik">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="progung" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROGRAM UNGGULAN</a>
+                            <div class="dropdown-menu" aria-labelledby="progung">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <a href="#" class="nav-item nav-link">FASILITAS</a>
+                        <a href="#" class="nav-item nav-link">ZISWAF</a>
+                        <a href="#" class="nav-item nav-link">ALUMNI</a>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="search">
+                   <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
             </div>
         </nav>
 
-        <div class="col-md-12 mt-5 mb-5 atas">
+        <div class="col-md-12 atas mt-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Isi Berita</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-3 mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 mt-5"><p><b> <i class="fas fa-chevron-left"></i> HOME </b></p><hr></div>
                 
                     <div class="col-md-8">
                         <!-- Judul -->
@@ -157,7 +173,7 @@
 
                     <!-- Row Kanan -->
                     <div class="col-md-4 text-center">
-                        <div class="text-center sosmedberita">
+                        <div class="text-center sosmed mt-2">
                             <h2>
                                 <!-- Facebook -->
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -253,15 +269,8 @@
                 </div>
                 <div class="text-center textkuning"><p>Jl. Raya Puspiptek-Pembangunan, Kp. Cikarang Rt.01/07 Pabuaran, Gunung Sindur - Bogor 16340</p></div>
             </div>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6 text-left">
-                        <div class="footer-copyright ml-5">© 2018 Copyright Pesantren Terpadu Darul Qur'an Mulia</div>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <div class="footer-copyright mr-5">KONTAK</div>
-                    </div>
-                </div>
+            <div class="col-md-12 text-center pb-2 border-top">
+                <div class="footer-copyright ml-5"><small>© 2018 Copyright Pesantren Terpadu Darul Qur'an Mulia</small></div>
             </div>
         </footer>
 
